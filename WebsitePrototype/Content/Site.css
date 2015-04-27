@@ -22,3 +22,29 @@ select,
 textarea {
     max-width: 280px;
 }
+
+/* Keiths Ammendments*/
+
+
+footer{
+    background-color:#000;
+    color: #fff;
+   
+}
+
+#menus{
+    background-color: #434345;
+    color: #279dd8;
+}
+
+#menus #2menus{
+    border-left:1px solid #fff;
+}
+
+.footer-menus{
+    list-style-type:none;
+}
+
+.footer-menus li{
+    color:#808080;
+}
