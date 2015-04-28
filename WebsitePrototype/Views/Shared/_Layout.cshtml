@@ -3,31 +3,36 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>Langdon Systems | AGS &amp; Duty Management Systems</title>    
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <img src="~/Images/langdon-systems-logo.png" />
-                
+            <div class="col-md-5">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="logo">
+                        <img src="~/Images/langdon-systems-logo.png" />
+                    </div>
+                </div>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-                @Html.Partial("_LoginPartial")
+            <div class="col-md-7">
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>
+                    @*@Html.Partial("_LoginPartial")*@
+                </div>
             </div>
         </div>
     </div>
@@ -38,8 +43,26 @@
         <div class="row" style="background-color:#fff;">
             <br />
             <div class="container" style="text-align:center;">
-                <div style="height:60px; width:300px; background-color:#279dd8; text-align:center; color: #fff;"
-                <p>Button</p>
+                <div class="blueButtonsInformation">
+
+                    <ul class="blueButtons clearfix">
+
+
+                        <li class="clearfix">
+
+                            <a href="http://langdonsystems.nl/contact/">
+
+                                <img class="blueImg" src="http://langdonsystems.nl/wp-content/uploads/2014/08/blue-button-phone-icon.png">
+                                <span class="blueTitle">Get In Touch!</span>
+                                <span class="blueText">We'd love to hear from you</span>
+
+                            </a>
+
+                        </li>
+
+
+                    </ul>
+
                 </div>
                 <br />
             </div>

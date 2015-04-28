@@ -21,6 +21,8 @@
 
 /*! normalize.css v2.1.0 | MIT License | git.io/normalize */
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 article,
 aside,
 details,
@@ -311,7 +313,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
@@ -473,7 +475,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color:#fff;
@@ -4172,6 +4174,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   position: fixed;
   right: 0;
   left: 0;
+  height: 120px;
   border-width: 0 0 1px;
 }
 

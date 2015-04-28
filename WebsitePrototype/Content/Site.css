@@ -53,3 +53,256 @@ footer{
   
 }
 
+.logo{
+      width: 210px;
+  height: 75px;
+  margin: 20px 0 0 22px;
+  padding: 0;
+  position: absolute;
+  z-index: 100;
+  float: left;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 800;
+  text-align: left;
+  margin: 20px 0 12px;
+  padding: 0;
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+p{
+      margin: 0 0 15px;
+  color: #454446;
+  font-size: 15px;
+  font-family: 'Open Sans', Arial, Georgia, Helvetica, sans-serif;
+  line-height: 1.6;
+  font-weight: 100;
+  text-align: left;
+}
+
+.img-right{
+    margin-top:60px;
+}
+
+#customs-banner{
+  padding: 25px 0 30px;
+  margin: 0 auto 50px;
+  width: 100%;
+  max-width: 100%;
+  
+  text-align: center;
+  background: #279dd8;
+}
+
+#customs-banner h1{
+    text-align:center;
+    font-size:2.7em;
+    text-transform:none;
+    font-weight:400;
+}
+
+.columns{
+    -moz-column-count: 2;
+-moz-column-gap: 60px;
+-webkit-column-count: 2;
+-webkit-column-gap: 60px;
+column-count: 2;
+column-gap: 60px;
+}
+
+.quickLinkSnippetArea {
+  position: relative;
+  padding: 42px 0 42px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  float: left;
+  text-align: center;
+  background: #f4f4f5;
+}
+
+#ul.quickLinkButtons li .quickLinkUrl {
+  margin: 0 auto;
+  padding: 8px 17px 7px;
+  display: block;
+  width: auto;
+  text-align: center;
+  position: relative;
+}
+
+ul.quickLinkButtons li .quickLinkImg {
+  margin: 0 0 0 63px;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  width: 162px;
+  height: 162px;
+  overflow: hidden;
+  display: block;
+  border: 4px solid #e0e1e3;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  z-index: 2;
+  float: none;
+}
+
+ul.quickLinkButtons li {
+  margin: 0 10px;
+  padding: 0;
+  width: 33.333333%;
+  position: relative;
+  width: 294px;
+  list-style: none;
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+ul.quickLinkButtons li span.quickLinkBox {
+  margin: -85px 0 0;
+  padding: 85px 0 20px;
+  display: inline-block;
+  width: 290px;
+  position: relative;
+  z-index: 1;
+  border: 2px solid #ebeced;
+  background: #fff;
+}
+
+ul.quickLinkButtons li .quickLinkTitle {
+  margin: 0;
+  padding: 0 17px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: #434345;
+  font-size: 16px;
+  font-family: 'Open Sans', Arial, Georgia, Helvetica, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+ul.quickLinkButtons li .quickLinkText {
+  margin: 10px 0 10px;
+  padding: 0 17px;
+  display: block;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+  color: #454446;
+  font-size: 13px;
+  font-family: 'Open Sans', Arial, Georgia, Helvetica, sans-serif;
+  font-weight: 100;
+  line-height: 1.6;
+  min-height: 150px;
+}
+
+ul.quickLinkButtons li .quickLinkUrl {
+  margin: 0 auto;
+  padding: 8px 17px 7px;
+  display: block;
+  width: auto;
+  text-align: center;
+  position: relative;
+}
+
+.latestNews {
+  margin: 0 0 15px;
+  padding: 0;
+  width: 100%;
+  height: 190px;
+  display: block;
+  background: #000;
+  position: relative;
+}
+
+.latestNewsImage img {
+  margin: 0 0 0 -50px;
+  padding: 0;
+  width: 176px;
+  height: 156px;
+  
+}
+
+.blue-text {
+  color: #279dd8!important;
+  font-size: 15px!important;
+  margin-top: 15px;
+}
+
+.blueButtonsInformation {
+  position: relative;
+  padding-top: 0px;
+  margin: 0 auto;
+  width: 950px;
+  max-width: 950px;
+}
+
+ul.blueButtons {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+
+
+ul.blueButtons li:first-child {
+  padding: 35px 35px 30px;
+  margin: 0 auto;
+  text-align: left;
+  list-style: none;
+  display: inline-block;
+}
+
+ul.blueButtons li a {
+  padding: 10px 0 10px 5px;
+  margin: 0;
+  display: inline-block;
+  background: #279dd8;
+  width: 289px;
+  text-align: center;
+}
+
+.blueImg {
+  float: left;
+  padding: 0;
+  margin: 2px 0 0;
+  pointer-events: none;
+  display: inline-block;
+}
+
+.blueTitle {
+  float: left;
+  padding: 0;
+  margin: 3px 0 0;
+  color: #fff;
+  width: 230px;
+  font-size: 22px;
+  font-family: 'Open Sans', Arial, Georgia, Helvetica, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  pointer-events: none;
+  display: inline-block;
+}
+
+.blueText {
+  float: left;
+  padding: 0;
+  width: 230px;
+  margin: 2px 0 0;
+  color: #fff;
+  font-size: 13px;
+  font-family: 'Open Sans', Arial, Georgia, Helvetica, sans-serif;
+  font-weight: 400;
+  pointer-events: none;
+  display: inline-block;
+}
